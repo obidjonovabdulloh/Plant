@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+:root{
+    --color--:#066F14;
+    --color1--:#EAF2E5;
+    --color2--:#F0EBE6;
+    --color3--:#DFFFE3;
+}
+header .navbar .nav_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+header .navbar .nav_title h1 {
+    font-weight: 500;
+}
+header .navbar .nav_title .nav_item{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+header .navbar .nav_title .nav_item li {
+    margin: 0 25px;
+}
+header .navbar .nav_title .nav_item li a {
+    color: black;
+    font-weight: 500;
+    transition: .65s;
+} 
+header .navbar .nav_title .nav_item li a:hover{
+    color: var(--color--);
+}
+header .navbar .nav_title .nav_item .nav_sub1 a{
+    border: 1px solid var(--color--);
+    padding: 10px 20px;
+    color: var(--color--);
+    border-radius: 5px;
+    transition: .65s;
+}
+header .navbar .nav_title .nav_item .nav_sub1 a:hover{
+    background-color: var(--color--);
+    color: white;
+}
+header .navbar .nav_title1{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+header .navbar .nav_title1 .nav_texts h2 {
+    font-size: 40px;
+    width: 50%;
+}
+header .navbar .nav_title1 .nav_texts p {
+    width: 70%;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+header .navbar .nav_title1 .nav_texts a{
+    border: 1px solid var(--color--);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: var(--color--);
+    font-weight: bold;
+    transition: .65s;
+}
+header .navbar .nav_title1 .nav_texts a:hover{
+    background-color: var(--color--);
+    color: white;
+}
+header .navbar .nav_title1 .nav_texts .nav_item1 {
+    display: flex;
+}
+header .navbar .nav_title1 .nav_texts .nav_item1 li {
+    margin: 20px 50px 0px 0px;
+    font-size: 20px;
+}
+header .navbar .nav_title1 .nav_imgs img {
+    width: 400px;
+    margin-right: 100px;
+}
+header .navbar .nav_title1 .nav_imgs .nav_div {
+    position: absolute;
+    top: 30%;
+    left: 85%;
+    background: #066F14B2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+header .navbar .nav_title1 .nav_imgs .nav_div h3::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 60%;
+    height: 5%;
+    top: 50%;
+    right: 100%;
+}
+header .navbar .nav_title1 .nav_imgs .nav_div1{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    background: #066F14B2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+header .navbar .nav_title1 .nav_imgs .nav_div1 h3::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 85%;
+    height: 5%;
+    top: 50%;
+    left: 100%;
+}
+header .navbar .nav_title1 .nav_imgs .nav_div2{
+    position: absolute;
+    top: 80%;
+    left: 85%;
+    background: #066F14B2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+header .navbar .nav_title1 .nav_imgs .nav_div2 h3::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 75%;
+    height: 5%;
+    top: 50%;
+    right: 100%;
+}
+main .section {
+    padding: 50px 0px;
+}
+main .section .sec_title {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+main .section .sec_title .sec_texts h2{
+    width: 60%;
+    margin-bottom: 20px;
+}
+main .section .sec_title .sec_texts a{
+    color: gray;
+    display: flex;
+    align-items: center;
+
+}
+main .section .sec_title .sec_imgs{
+    display: flex;
+}
+main .section .sec_title .sec_imgs img {
+    width: 200px;
+    margin: 0 20px;
+}
+main .section1 .sec1_title{
+    display: flex;
+    margin-top: 100px;
+}
+main .section1 .sec1_title .sec1_imgs img {
+    width: 400px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+main .section1 .sec1_title .sec1_imgs {
+    background-image: url(../img/Rectangle\ 39.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+main .section1 .sec1_title .sec1_texts {
+    margin-left: 50px;
+}
+main .section1 .sec1_title .sec1_texts a {
+    color: var(--color--);
+}
+main .section1 .sec1_title .sec1_texts h2 {
+    font-size: 30px;
+}
+main .section1 .sec1_title .sec1_texts p {
+    width: 70%;
+    color: gray;
+    margin: 20px 0px;
+}
+main .section1 .sec1_title .sec1_texts .sec1link{
+    border: 1px solid var(--color--);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: .65s;
+}
+main .section1 .sec1_title .sec1_texts .sec1link:hover{
+    color: white;
+    background-color: var(--color--);
+}
+main .section2 .sec2_title {
+    margin-top: 100px;
+}
+main .section2 .sec2_title h2 {
+    font-size: 50px;
+    text-align: center;
+}
+main .section2 .sec2_title .sec2_item {
+    display: flex;  
+    justify-content: center;
+}
+main .section2 .sec2_title .sec2_item li {
+    padding: 0 20px;
+}
+main .section2 .sec2_title .sec2_item li a{
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: .65s;
+}
+main .section2 .sec2_title .sec2_item li a:hover{
+    color: var(--color--);
+}
+main .section2 .sec2_title .sec2_item2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .section2 .sec2_title .sec2_item2 .sec2_boxs{
+    background-color: var(--color1--);
+    width: 210px;
+    height: 260px;
+    margin-top: 30px;
+    padding: 20px 35px;
+}
+main .section2 .sec2_title .sec2_item2 .sec2_boxs img {
+    width: 100px;
+    padding: 10px 0px;
+}
+main .section2 .sec2_title .sec2_item2 .sec2_boxs h3 { 
+    font-weight: 500;
+ }
+ main .section2 .sec2_title .sec2_item2 .sec2_boxs .sec2_icons .bx{
+     color: yellow;
+     margin: 5px 0px;
+ }
+ main .section2 .sec2_title .sec2_item2 .sec2_boxs a {
+     color: black ;
+ }
+ main .section2 .sec2_title .sec2link {
+     border: 1px solid var(--color--);
+     color: var(--color--);
+     font-weight: bold;
+     padding: 10px 20px;
+     border-radius: 5px;
+     margin-left: 520px;
+     margin-top: 50px;
+     transition: .65s;
+ }
+ main .section2 .sec2_title .sec2link:hover{
+     color: white;
+     background-color: var(--color--);
+ }
+main .section3 .sec3_title {
+    margin-top: 100px;
+    background-image: url(../img/pexels-cottonbro-4507699\ 1.png);
+    padding: 20px 0px;
+    background-repeat: no-repeat;
+    background-position-x: 470px;
+}
+main .section3 .sec3_title .sec3_item3 {
+    background-color: var(--color--);
+    width: 500px;
+    padding: 20px 20px;
+}
+main .section3 .sec3_title .sec3_item3 h3{
+    color: white;
+    font-weight: 400;
+}
+main .section3 .sec3_title .sec3_item3 .sec3_p {
+    color: var(--color1--);
+    margin-top: 10px;
+    line-height: 25px;
+}
+main .section3 .sec3_title .sec3_item3 .sec3_name p {
+    font-size: 15px;
+    color: rgb(177, 177, 177);
+}
+main .section3 .sec3_title .sec3_item3 .sec3_name{
+    margin-left: 10px;
+}
+main .section3 .sec3_title .sec3_item3 .sec3_op {
+    display: flex;
+    align-items: center;
+}
+main .section3 .sec3_title .sec3_item3 .sec3_op .bx {
+    color: black;
+    font-size: 25px;
+    margin-left: 260px;
+    margin-bottom: 20px;
+}
+main .section3 .sec3_title .sec3_item3 .sec3_op .imgsec3 img {
+    width: 50px;
+    border-radius: 10%;
+}
+main .section3 .sec3_title .sec3_texts h2 {
+    font-weight: 500;
+    font-size: 30px;
+}
+main .section3 .sec3_title .sec3_texts .sec3p {
+    width: 40%;
+    color: gray;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+main .section4{
+    background-color: var(--color3--);
+    margin: 100px 0px;
+    padding: 70px 0px;
+}
+main .section4 .sec4_title {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+main .section4 .sec4_title .sec4_texts h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+main .section4 .sec4_title .sec4_texts p {
+    width: 65%;
+    line-height: 30px;
+    color: gray;
+}
+main .section4 .sec4_title .sec4_texts .sec4_input {
+    background-color: white;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+main .section4 .sec4_title .sec4_texts .sec4_input input{
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+main .section4 .sec4_title .sec4_texts .sec4_input a{
+    border: 1px solid var(--color--);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: .65s;
+}
+main .section4 .sec4_title .sec4_texts .sec4_input a:hover{
+    color: white;
+    background-color: var(--color--);
+}
+main .section4 .sec4_title .sec4_imgs img {
+    position: absolute;
+    width: 250px;
+    bottom: -40%;
+    right: 15%;
+}
+main .section5 .sec5_title h2 {
+    text-align: center;
+    font-size: 40px;
+}
+main .section5 .sec5_title p {
+    color: gray;
+    width: 45%;
+    text-align: center;
+    margin-left: 310px;
+    line-height: 30px;
+    padding: 20px 0px;
+}
+main .section5 .sec5_title .sec5_item{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+main .section5 .sec5_title .sec5_item img {
+    width: 210px;
+    margin: 0 10px;
+    transition: .65s;
+}
+main .section5 .sec5_title .sec5_item img:hover{
+    transform: scale(1.1);
+}
+main .section5 .sec5_title .sec5_item .imgsec5{
+    background-image: url(../img/freddie-marriage-UcfKYTan-LU-unsplash\ 1.png);
+    width: 210px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    background-repeat: no-repeat;
+    height: 230px;
+    background-size: 210px;
+    margin-right: 10px;
+    transition: .65s;
+}
+main .section5 .sec5_title .sec5_item .imgsec5:hover{
+    transform: scale(1.1);
+}
+.footer{
+    padding: 0px 0px 50px;
+}
+.footer .footer_title{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.footer .footer_title .footer_texts p {
+    width: 70%;
+    color: gray;
+    line-height: 25px;
+    margin: 20px 0px;
+}
+.footer .footer_title .footer_texts .bx {
+    border: 1px solid #EDFFDD;
+    color: var(--color--);
+    font-size: 20px;
+    padding: 5px 6px;
+    background: #EDFFDD;
+}
+.footer .footer_title .footer_item{
+    display: flex;
+    margin: 0 100px;
+}
+.footer .footer_title .footer_item .item_texts {
+    margin: 0 35px;
+    line-height: 25px;
+}
+.footer .footer_title .footer_item .item_texts a {
+    color: black;
+    margin: 5px 0px;
+}
